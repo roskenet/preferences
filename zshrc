@@ -80,7 +80,7 @@ zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(z zsh-vi-mode git zsh-autosuggestions zsh-syntax-highlighting)
-plugins=(z zsh-vi-mode git zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(z git zsh-autosuggestions zsh-syntax-highlighting zsh-vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -106,6 +106,7 @@ export EDITOR='vim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias zk="zkubectl"
+alias cs="cowsay"
 
 source ~/Workspaces/cat/cat-scripts/.zalandorc
 export CREDENTIALS_DIR=~/Workspaces/zalando/credentials
